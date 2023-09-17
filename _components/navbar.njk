@@ -1,0 +1,18 @@
+<header class="nav-jc">
+    <div class="nav-jc1">
+        <a href="#" class="navlogo-jc">{{ jc.title }}</a>
+        <button class="navmobile-jc mobile-button">
+            <span class="sr-only">Open Menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+            </svg>
+        </button>
+        <div class="hidden navlist-jc md:block mobile-menu">
+            <ul class="navlist-ul">
+                {% for nav in nav.links %}
+                <li><a href="{{ nav.url }}" class="navlist-li">{{ nav.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</header>

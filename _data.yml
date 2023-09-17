@@ -1,0 +1,8 @@
+metas:
+  lang: en
+  site: =title
+  description: =description
+  image: =image
+
+jc:
+  title: JellyCrot

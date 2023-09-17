@@ -1,0 +1,9 @@
+links:
+  - title: Home
+    url: "/"
+  - title: Category
+    url: "/category"
+  - title: Viral
+    url: "/viral"
+  - title: How To?
+    url: "/how-to"
