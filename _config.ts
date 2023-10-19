@@ -11,11 +11,6 @@ const site = lume({
     components: {
         variable: "components",
     },
-    server: {
-        port: 3000,
-        page404: "/404/",
-        open: true,
-    }
 });
 site
     .copy("static", ".")
