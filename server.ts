@@ -10,7 +10,7 @@ const server = new Server({
 server.use(expires());
 server.use(notFound({
   root: `${Deno.cwd()}/_site`,
-  page404: "/404/",
+  page404: "./404/",
 }));
 
 server.start();
